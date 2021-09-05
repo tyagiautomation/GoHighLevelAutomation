@@ -8,47 +8,17 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,207</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">99,326</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GHH.testcases.LoginPageTest</td><td><a href="#m0">LoginTest_With_Valid_Crdenetials</a></td><td rowspan="1">1630792341941</td><td rowspan="1">12390</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.GHH.testcases.LoginPageTest</td><td><a href="#m1">LoginTest_With_invalid_Credentials</a></td><td rowspan="1">1630792340063</td><td rowspan="1">1872</td></tr><tr class="passedeven"><td><a href="#m2">Verify_loginPage_Title</a></td><td rowspan="1">1630792338832</td><td rowspan="1">799</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.GHH.testcases.AppointmentPageTest</td><td><a href="#m0">AddSchdeule_Appointment_and_Verify</a></td><td rowspan="2">1630855766300</td><td rowspan="2">44338</td></tr><tr class="passedeven"><td><a href="#m1">AddSchdeule_Appointment_and_Verify</a></td></tr><tr class="passedeven"><td><a href="#m2">Go_TO_Schedule_Appointments_Screen</a></td><td rowspan="1">1630855754264</td><td rowspan="1">3</td></tr><tr class="passedodd"><td rowspan="1">com.GHH.testcases.HomePageTest</td><td><a href="#m3">Go_TO_Appointments_Screen</a></td><td rowspan="1">1630855753685</td><td rowspan="1">568</td></tr><tr class="passedeven"><td rowspan="3">com.GHH.testcases.LoginPageTest</td><td><a href="#m4">LoginTest_With_Valid_Crdenetials</a></td><td rowspan="1">1630855723440</td><td rowspan="1">30231</td></tr><tr class="passedeven"><td><a href="#m5">LoginTest_With_invalid_Credentials</a></td><td rowspan="1">1630855721468</td><td rowspan="1">1966</td></tr><tr class="passedeven"><td><a href="#m6">Verify_loginPage_Title</a></td><td rowspan="1">1630855720150</td><td rowspan="1">845</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.GHH.testcases.LoginPageTest#LoginTest_With_Valid_Crdenetials</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - LoginTest_With_Valid_Crdenetials</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.GHH.testcases.LoginPageTest.LoginTest_With_Valid_Crdenetials(LoginPageTest.java:100)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.GHH.testcases.LoginPageTest#LoginTest_With_invalid_Credentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test1234@yopmail.com</td><td>test</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Method name is - LoginTest_With_invalid_Credentials</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.GHH.testcases.LoginPageTest#Verify_loginPage_Title</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - Verify_loginPage_Title</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.GHH.testcases.AppointmentPageTest#AddSchdeule_Appointment_and_Verify</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>September 16, 2021</td><td>September 10, 1993</td><td>11:00 am</td><td>Title 2</td><td>Contact2</td><td>Email1@yopmail.com</td><td>9.876543201E9</td><td>Asia/Kolkata</td><td>Delhi</td><td>Busy</td><td>Invalid</td><td>Note2</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Method name is - AddSchdeule_Appointment_and_Verify</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.GHH.testcases.AppointmentPageTest#AddSchdeule_Appointment_and_Verify</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>September 9, 2021</td><td>September 9, 1992</td><td>11:00 am</td><td>Title 1</td><td>Contact1</td><td>Email1@yopmail.com</td><td>9.876543201E9</td><td>Asia/Kolkata</td><td>Delhi</td><td>Free</td><td>Invalid</td><td>Note1</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Method name is - AddSchdeule_Appointment_and_Verify</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.GHH.testcases.AppointmentPageTest#Go_TO_Schedule_Appointments_Screen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - Go_TO_Schedule_Appointments_Screen</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.GHH.testcases.HomePageTest#Go_TO_Appointments_Screen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - Go_TO_Appointments_Screen</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.GHH.testcases.LoginPageTest#LoginTest_With_Valid_Crdenetials</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - LoginTest_With_Valid_Crdenetials</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.GHH.testcases.LoginPageTest#LoginTest_With_invalid_Credentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test1234@yopmail.com</td><td>test</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Method name is - LoginTest_With_invalid_Credentials</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.GHH.testcases.LoginPageTest#Verify_loginPage_Title</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Method name is - Verify_loginPage_Title</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -6,7 +6,7 @@
       <class name="com.GHH.testcases.LoginPageTest"/>
       <!--  class name="com.GHH.testcases.tc01"/ -->
       <class name="com.GHH.testcases.HomePageTest"/>
-      <!--  class name="com.GHH.testcases.AppointmentPageTest"/-->
+      <class name="com.GHH.testcases.AppointmentPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

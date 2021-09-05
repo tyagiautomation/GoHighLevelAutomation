@@ -22,7 +22,7 @@ public class Xls_Reader {
 		public static Object[][] getTestData(String sheetName) {
 			FileInputStream file = null;
 			try {
-				file = new FileInputStream("C:\\Users\\Tyagi\\eclipse-workspace\\GoHighLevel\\src\\main\\java\\com\\GHH\\testData\\collectionrunner.xls");
+				file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\GHH\\testData\\collectionrunner.xls");
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			}

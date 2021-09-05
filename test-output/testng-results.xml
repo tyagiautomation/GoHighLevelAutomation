@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Method name is - Verify_loginPage_Title]]>
@@ -10,32 +10,44 @@
     <line>
       <![CDATA[Method name is - LoginTest_With_Valid_Crdenetials]]>
     </line>
+    <line>
+      <![CDATA[Method name is - Go_TO_Appointments_Screen]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - Go_TO_Schedule_Appointments_Screen]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - AddSchdeule_Appointment_and_Verify]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - AddSchdeule_Appointment_and_Verify]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-09-05T03:22:10 IST" name="Default suite" finished-at="2021-09-05T03:22:35 IST" duration-ms="25207">
+  <suite started-at="2021-09-05T20:58:31 IST" name="Suite" finished-at="2021-09-05T21:00:10 IST" duration-ms="99326">
     <groups>
     </groups>
-    <test started-at="2021-09-05T03:22:10 IST" name="Default test" finished-at="2021-09-05T03:22:35 IST" duration-ms="25207">
+    <test started-at="2021-09-05T20:58:31 IST" name="Test" finished-at="2021-09-05T21:00:10 IST" duration-ms="99326">
       <class name="com.GHH.testcases.LoginPageTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:10 IST" name="initialization" finished-at="2021-09-05T03:22:18 IST" duration-ms="8379" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:31 IST" name="initialization" finished-at="2021-09-05T20:58:39 IST" duration-ms="8547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:18 IST" name="setUp" finished-at="2021-09-05T03:22:18 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:39 IST" name="setUp" finished-at="2021-09-05T20:58:40 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_loginPage_Title()[pri:1, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:18 IST" name="Verify_loginPage_Title" finished-at="2021-09-05T03:22:19 IST" duration-ms="799" status="PASS">
+        <test-method signature="Verify_loginPage_Title()[pri:1, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:40 IST" name="Verify_loginPage_Title" finished-at="2021-09-05T20:58:40 IST" duration-ms="845" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - Verify_loginPage_Title]]>
             </line>
           </reporter-output>
         </test-method> <!-- Verify_loginPage_Title -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:20 IST" name="setUp" finished-at="2021-09-05T03:22:20 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:41 IST" name="setUp" finished-at="2021-09-05T20:58:41 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest_With_invalid_Credentials(java.lang.String, java.lang.String)[pri:2, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:20 IST" name="LoginTest_With_invalid_Credentials" data-provider="getLoginData" finished-at="2021-09-05T03:22:21 IST" duration-ms="1872" status="PASS">
+        <test-method signature="LoginTest_With_invalid_Credentials(java.lang.String, java.lang.String)[pri:2, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:41 IST" name="LoginTest_With_invalid_Credentials" data-provider="getLoginData" finished-at="2021-09-05T20:58:43 IST" duration-ms="1966" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,64 +66,198 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginTest_With_invalid_Credentials -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:21 IST" name="setUp" finished-at="2021-09-05T03:22:21 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:43 IST" name="setUp" finished-at="2021-09-05T20:58:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest_With_Valid_Crdenetials()[pri:3, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:21 IST" name="LoginTest_With_Valid_Crdenetials" finished-at="2021-09-05T03:22:34 IST" duration-ms="12390" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at com.GHH.testcases.LoginPageTest.LoginTest_With_Valid_Crdenetials(LoginPageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="LoginTest_With_Valid_Crdenetials()[pri:3, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T20:58:43 IST" name="LoginTest_With_Valid_Crdenetials" finished-at="2021-09-05T20:59:13 IST" duration-ms="30231" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - LoginTest_With_Valid_Crdenetials]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginTest_With_Valid_Crdenetials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GHH.testcases.LoginPageTest@503d687a]" started-at="2021-09-05T03:22:35 IST" name="tearDown" finished-at="2021-09-05T03:22:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GHH.testcases.LoginPageTest@140c9f39]" started-at="2021-09-05T21:00:10 IST" name="tearDown" finished-at="2021-09-05T21:00:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.GHH.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.GHH.testcases.AppointmentPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:14 IST" name="setUp" finished-at="2021-09-05T20:59:14 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Go_TO_Schedule_Appointments_Screen()[pri:1, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:14 IST" name="Go_TO_Schedule_Appointments_Screen" finished-at="2021-09-05T20:59:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - Go_TO_Schedule_Appointments_Screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Go_TO_Schedule_Appointments_Screen -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:14 IST" name="setUp" finished-at="2021-09-05T20:59:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddSchdeule_Appointment_and_Verify(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:14 IST" name="AddSchdeule_Appointment_and_Verify" data-provider="getAppointmentData" finished-at="2021-09-05T20:59:26 IST" duration-ms="11928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[September 9, 2021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[September 9, 1992]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11:00 am]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Title 1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Contact1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Email1@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543201E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Asia/Kolkata]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Free]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Note1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - AddSchdeule_Appointment_and_Verify]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddSchdeule_Appointment_and_Verify -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:26 IST" name="setUp" finished-at="2021-09-05T20:59:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddSchdeule_Appointment_and_Verify(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.GHH.testcases.AppointmentPageTest@26275bef]" started-at="2021-09-05T20:59:26 IST" name="AddSchdeule_Appointment_and_Verify" data-provider="getAppointmentData" finished-at="2021-09-05T21:00:10 IST" duration-ms="44338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[September 16, 2021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[September 10, 1993]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11:00 am]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Title 2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Contact2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Email1@yopmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543201E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Asia/Kolkata]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Busy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Note2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - AddSchdeule_Appointment_and_Verify]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddSchdeule_Appointment_and_Verify -->
+      </class> <!-- com.GHH.testcases.AppointmentPageTest -->
+      <class name="com.GHH.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GHH.testcases.HomePageTest@4d910fd6]" started-at="2021-09-05T20:59:13 IST" name="setUp" finished-at="2021-09-05T20:59:13 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Go_TO_Appointments_Screen()[pri:1, instance:com.GHH.testcases.HomePageTest@4d910fd6]" started-at="2021-09-05T20:59:13 IST" name="Go_TO_Appointments_Screen" finished-at="2021-09-05T20:59:14 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - Go_TO_Appointments_Screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Go_TO_Appointments_Screen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GHH.testcases.HomePageTest@4d910fd6]" started-at="2021-09-05T20:59:14 IST" name="tearDown" finished-at="2021-09-05T20:59:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.GHH.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
