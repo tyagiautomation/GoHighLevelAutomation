@@ -6,7 +6,9 @@ Dependency Java Maven Apache POI
 ###libraries used Selenium TestNG log4j Extent Reports
 
 Steps to clone execute the tests
+
 git clone 
+git checkout GoHighLevel-QA
 cd GoHighLevl
 mvn clean test
 mvn install
