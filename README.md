@@ -14,5 +14,4 @@ mvn install
 mvn test
 java cp C:\projectfred> java -cp "path-tojar/testng.jar:path_to_yourtest_classes" org.testng.TestNG testng.xml
 
-------------
 **To run the file directly Go to the 'testng.xml' run as TestNG Suite.**
